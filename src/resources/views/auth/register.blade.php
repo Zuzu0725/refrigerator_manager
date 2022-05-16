@@ -3,9 +3,9 @@
 @section('content')
 <div class="container">
     <div class="row justify-content-center">
-        <div class="col-md-8">
+        <div class="col-md-7">
             <div class="card">
-                <div class="card-header">ユーザー登録</div>
+            <h4 class="text-center mt-4 mb-2">ユーザー登録</h4>
 
                 <div class="card-body">
                     <form method="POST" action="{{ route('register') }}">
