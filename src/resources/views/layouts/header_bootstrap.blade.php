@@ -1,6 +1,6 @@
 <header>
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary pt-4 pb-4 shadow-sm">
-        <a class="navbar-brand" href="/">冷蔵庫管理</a>
+        <a class="navbar-brand" href="/home">冷蔵庫管理</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
