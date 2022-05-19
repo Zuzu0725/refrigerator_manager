@@ -23,9 +23,9 @@ class FoodController extends Controller
         // 今日から7日後の日付を取得
         $sevendays = Carbon::today()->addDay(7);
         
-        // 賞味期限7日前のデータ取得
+        // 賞味期限が7日前のデータ取得
         $query = $user->foods();
-        $query->whereDate('expiry', '<=', $sevendays);
+        $query->whereBetween('expiry', [$today, $sevendays]);
         $query->orderBy('expiry', 'asc');
         $expiry_sevendays_ago_food = $query->get();
 
